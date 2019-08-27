@@ -1,0 +1,40 @@
+// $body-bg: #977762;
+$body-color: #036344;
+
+// ==========================
+// Bootstrap v4.3.1
+// ==========================
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+
+// ==========================
+// RESET
+// ==========================
+
+.img-logo {
+  height: 2rem;
+  width: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar-main {
+  background: #2A423D;
+  background: -webkit-linear-gradient(top left, #2A423D, #481D33);
+  background: -moz-linear-gradient(top left, #2A423D, #481D33);
+  background: linear-gradient(to bottom right, #2A423D, #481D33);
+  // background: #617C6A;
+  // background: -webkit-linear-gradient(top, #617C6A, #4E674B);
+  // background: -moz-linear-gradient(top, #617C6A, #4E674B);
+  // background: linear-gradient(to bottom, #617C6A, #4E674B);
+}
+
+.main-app {
+  padding-top: 3.2rem;
+}
+
+.loading {
+  height: 80vh;
+  width: 80vh;
+  min-width: 100%;
+}
